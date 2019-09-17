@@ -4,26 +4,36 @@ title: TMForum Data Models
 ---
 <div class="container">
 <div class="row">
-<div class="col">
-1 of 3
-</div>
-<div class="col-6">
-2 of 3 (wider)
-</div>
-<div class="col">
-3 of 3
-</div>
+  <div class="col">
+    Marketing/Sales
+  </div>
+  <div class="col">
+    Product
+  </div>
 </div>
 <div class="row">
-<div class="col">
-1 of 3
+  <div class="col">
+    Customer
+  </div>
+  <div class="col">
+    Service
+  </div>
 </div>
-<div class="col-5">
-2 of 3 (wider)
+<div class="row">
+  <div class="col">
+    Resource
+  </div>
+  <div class="col">
+    Engaged Party
+  </div>
 </div>
-<div class="col">
-3 of 3
-</div>
+<div class="row">
+  <div class="col">
+    Enterprise
+  </div>
+  <div class="col">
+    Common
+  </div>
 </div>
 </div>
 >test
