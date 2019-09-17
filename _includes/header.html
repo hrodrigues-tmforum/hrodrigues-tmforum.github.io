@@ -13,12 +13,15 @@
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
           <li class="nav-item">
+            <img src="https://www.tmforum.org/wp-content/themes/sistina-child/images/tmf-logo-2018.svg" alt="TM Forum — How to manage Digital Transformation, Agile Business Operations &amp; Connected Digital Ecosystems" width="152" height="40">
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           </li>
           {%- endif -%}
         {% endfor -%}
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">Fork me on Github</a>
+          <a class="nav-link" href="https://github.com/tmforum-rand/schemas">TMForum Schemas on GitHub</a>
         </li>
       </ul>
     </div>
